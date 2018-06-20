@@ -64,6 +64,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/clover
 TARGET_KERNEL_CONFIG := clover-perf_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
