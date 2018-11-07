@@ -67,16 +67,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 
 BUILD_BROKEN_DUP_RULES := true
 
-# Enable dexpreopt to speed boot time
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
-      WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
-    endif
-  endif
-endif
-
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
