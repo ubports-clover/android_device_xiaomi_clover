@@ -328,6 +328,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.crda.sh \
+    init.macaddress_setup.sh \
     init.mdm.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
