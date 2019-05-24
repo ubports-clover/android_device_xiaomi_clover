@@ -67,9 +67,6 @@ vendor/lib/libdrc.so|56d28a3d24c6b95396c87239496b09f81a01755b
 vendor/lib/libqtigef.so|c3817ff7616db77468b7bd8b2b3ac2c6a9085031
 vendor/lib/libsurround_3mic_proc.so|e3d7eae4c1599270049946e4145af0a1ce1b0d97
 vendor/lib/soundfx/libasphere.so|b6ffe13f029b41a44f0cf72229a040d607ccb7f4
-vendor/lib/soundfx/libqcbassboost.so|c84b01fa6560f73f8de98a80f6a14387af905f17
-vendor/lib/soundfx/libqcreverb.so|98ae67b46e353417bb4ceb9d442a1747ae28b34e
-vendor/lib/soundfx/libqcvirt.so|8f3e4e6445f07498cc974d7aa838b70cf0edae5a
 vendor/lib/soundfx/libshoebox.so|538dc7ed2d3066ca956a1722e147808f96c0224b
 vendor/lib64/libacdb-fts.so|21dc4666e90037189c9b76de009a1004db422f8b
 vendor/lib64/libacdbloader.so|04e27193f9d2beb1fd8c4fcad4c16a2abbe12c67
@@ -81,9 +78,6 @@ vendor/lib64/libaudioalsa.so|ec1afaf77d82033bf3e603ff54933e7d022633b3
 vendor/lib64/libaudioparsers.so|bf82865b675fed94c1f23b2a1f6d8ed546c0d323
 vendor/lib64/libqtigef.so|741ed80f45aa745f6d23fc4c2ad2707e83a53e0e
 vendor/lib64/soundfx/libasphere.so|9af4e1e5cfea9926f2c618d84d02318891171b11
-vendor/lib64/soundfx/libqcbassboost.so|b81d6e9904ed14c1d3d2bbbff8fe5b904de254aa
-vendor/lib64/soundfx/libqcreverb.so|21471c22e01f6ca13bcde51ba827a61ee69e3346
-vendor/lib64/soundfx/libqcvirt.so|ec2fd30962cb1477233e8b8f3c27d4bdcd1e5eae
 vendor/lib64/soundfx/libshoebox.so|cfc916d9a1ee617c248f784359df41a95d3b820a
 
 # ACDB - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
