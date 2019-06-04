@@ -52,6 +52,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio_hal.period_size=192 \
     vendor.voice.path.for.pcm.voip=true \
     persist.vendor.bt.a2dp_offload_cap=sbc-aac \
+    vendor.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee \
     camera.aux.packagelist=org.codeaurora.snapcam \
     persist.vendor.camera.HAL3.enabled=1 \
