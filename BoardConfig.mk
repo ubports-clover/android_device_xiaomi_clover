@@ -223,6 +223,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
