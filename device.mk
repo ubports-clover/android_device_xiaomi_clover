@@ -353,7 +353,7 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
 PRODUCT_PACKAGES += \
-    ims-ext-common \
+    ims-ext-common_system \
     telephony-ext
 
 PRODUCT_PACKAGES += \
@@ -362,6 +362,7 @@ PRODUCT_PACKAGES += \
     Dialer
 
 PRODUCT_BOOT_JARS += \
+    ims-ext-common_system \
     telephony-ext
 
 # Seccomp
