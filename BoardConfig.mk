@@ -76,7 +76,6 @@ ifeq ($(HOST_OS),linux)
     endif
   endif
 endif
-PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
