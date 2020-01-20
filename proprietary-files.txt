@@ -1,4 +1,3 @@
-
 # ADSP - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/bin/adsprpcd|edaaaa249ab22de6fba8bf07d677d060a143218a
 vendor/lib/libadsp_default_listener.so|1f6a768235d55446be7b865b950b6589ac487c97
@@ -565,11 +564,6 @@ vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so|34e1fb24b477743c893216
 vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so|0d961ed300a50dab315873dcbc23500fb2ae6546
 vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so|c2b3e1c2dc3de769c861d5167c7295e9844356e4
 
-# Display - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-lib/libsdm-disp-apis.so|57422f6469e1e5dd2ff890742a2783237dd19395
-lib64/libsdm-disp-apis.so|6a43376f167b146a8b8b571d87235a83af9841e1
-vendor/lib/libqdMetaData.so|c06a8454cc515c5e03738bbddbab5e25dad7e16d
-
 # Display calibration - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/etc/qdcm_calib_data_NT51021_BOE_BOE.xml|16f45a1a2c1428333af539e12478288826bf0c00
 vendor/etc/qdcm_calib_data_NT51021_BOE_BOE10.xml|16f45a1a2c1428333af539e12478288826bf0c00
@@ -734,16 +728,6 @@ vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
 
-# IOP - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so|45983026b71d579e20a0f3cd1a09d297f20f613e
-vendor/lib/libqti-iopd-client.so|38bdaeda9b10d06618d323e5f436ab38e449111e
-vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so|94a662a8ca607ac9f8eaa44dafeff0a28ac4923e
-vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so|17150dfc42a1f7659f6c8b65aced3f6d42b31086
-vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so|c2badffc129c7a05e7100cb28ab2dcdc5b36e445
-vendor/lib64/libqti-iopd-client.so|dd2041f20d6e10e68eb97ee8b8ad52e0caf9440f
-vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so|2ba92c513ca157cf748e94141a180ac9fc76112f
-vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so|4d8bcf501dbb04f90d1009dfa349e5edacdee0b4
-
 # Keymaster - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|50c0325fe38b2dd2133b1fd2e436d5d74970a14a
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
@@ -759,12 +743,6 @@ vendor/lib64/libkeymasterutils.so|9ebefa740d99efd3d796454b80f54d4137863901
 # Keystore - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/lib/hw/keystore.sdm660.so|4a3d664705c2e3235b578c84217be00e58b62fb7
 vendor/lib64/hw/keystore.sdm660.so|f808eae206477cc634918d5809ecbe8bcff664ec
-
-# Latency - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-lib/vendor.qti.hardware.data.latency@1.0.so|aea8475b80fcf2228d2a3f926a3dd3770d1d6b59
-lib64/vendor.qti.hardware.data.latency@1.0.so|70239aea3d1c81e5af3e07a7321ed68ef9a95e33
-vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so|afcea1db4fa9ab33e77d6db0ecbd370b61d02199
-vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so|4abea9e054f2fc9e9f4434c32c6b35e344ab2e85
 
 # Listen - from wayne - PKQ1.180904.001.V10.3.4.0.PDCCNXM
 vendor/etc/audio.scd|63cee7fd81092d66f6b35ebff5d996f59bda9848
@@ -904,12 +882,6 @@ vendor/lib64/libqmi_common_so.so|e2cd492da985d44db4041797c868e431b0ff3581
 vendor/lib64/libqmi_csi.so|df3bdaf026fadcb1044747914589196a96b04832
 vendor/lib64/libqmi_encdec.so|bfcab8d3b76b009e344dd943b6596f2b4db05631
 vendor/lib64/libqmiservices.so|6d0c541214bc4f032de7f82fdbad9e87d635083a
-
-# Qdutils - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|e7906e0786764afb9015c55392f43511a80c908f
-vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|cb9ff569cb044b87db22bf4d11e237d52c88cdd9
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|7eb9a04c54c43e566728f4e11e078730c2e6c4f2
 
 # Qteeconnector - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|67f7f4beebed7801373aacbc937fbd19f7f2b7a0
@@ -1069,12 +1041,6 @@ vendor/lib64/libscveObjectTracker_stub.so|c2dee42ed074d599343d8efe3582b83b93b55e
 vendor/lib64/libscvePanorama.so|7681fd812ad9f62115789a806ae926db14961c6b
 vendor/lib64/libscvePanorama_lite.so|bfce65b0f201fb7757d4ef9616c8aefb7722adbd
 
-# SSR - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-vendor/lib/libSubSystemShutdown.so|defc109ba77649a01f6b6a92f431676675a7c9c4
-vendor/lib/libsubsystem_control.so|d289221868ce5ea80a896f08ac1a116a69bfbb74
-vendor/lib64/libSubSystemShutdown.so|cdd6b733ac18d36ae9caaa12f957d7ec3fbdd520
-vendor/lib64/libsubsystem_control.so|305a368d07237a5e552f6323dc4d79f467276361
-
 # Sensor calibrate - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|317bba4ac2fdedd2ba6170c2b6c06680790ee73b
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|1e771765f085fb2197481635988ee89546c9c705
@@ -1096,12 +1062,6 @@ vendor/lib64/libsensor1.so|9cfce89f033c7981ee8e17e18341d76f9252045e
 vendor/lib64/libsensor_reg.so|f3f2451c73b3bdfacc073cef83261400a6228759
 vendor/lib64/sensor_calibrate.so|ac7ba26043b50b016a9bb544a5779be0bc196b81
 vendor/lib64/sensors.ssc.so|246de8287fc5d75a5c8025f7fcbfc509c45fc4cc
-
-# TUI - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|df9b713b1f04917646f40d37f1900f013e346ad8
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so|10577fe6c0d34e01510f6b0755ff44cb69e91fdf
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so|89995cfa49b8fec00f223727ee1b98246d4f8e60
 
 # Thermal - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/bin/thermal-engine|59332eb4e6a9ab826a40d38a1a746764aeefaccc
@@ -1176,26 +1136,13 @@ vendor/lib64/libwfdhdcpcp.so|cd7c9b49b094918d202edc50746b266a6761c585
 vendor/bin/cnss-daemon|93468d3c8c2100710b1f9ddec884fc455a839fd1
 
 # Misc - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
--vendor/app/SVIService/SVIService.apk|2c8485cdd8dd7f7b1a48c42c818b45f75f6b5729
-vendor/bin/xtwifi-client|617bab50d547be6393874c80f1435e931f69cc10
-vendor/bin/xtwifi-inet-agent|d4391030c2ba255e8c44058889c3dbcaf70df6d2
-vendor/lib/libUserAgent.so|0867cbf67b9ee0ba8c7df39f3e1066a7e6cce525
 vendor/lib/libfeedbackhandler.so|6b9876b1f649aaef895b75ba6a47e03f8ae22186
 vendor/lib/libllvm-qgl.so|2eca87231712da4cffa4c8eb163be18f08a71b5f
 vendor/lib/libmm-disp-apis.so|59ace079759bca5dc52666c473c93b74d4065111
 vendor/lib/libmm-qdcm.so|be68c9e0c460da461eb9b49b1af46da17ad3feee
-vendor/lib/libqti-gt-prop.so|4a9862ef34ce3b0e4e31035fc5ec38275427d38a
 vendor/lib/libsi.so|e46cb30f7e0d4dfaaf7868cd5c5d53e7d9f392cb
-vendor/lib/libsmemlog.so|8f0e2c95280922335bfa38117253dd8d6381dfeb
-vendor/lib/vendor.qti.hardware.limits@1.0_vendor.so|51ab2dd30974fb6482878fe4dbfffb63849b120a
-vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so|45f9a5df74f815908a51a9d690ddf901d2046837
-vendor/lib64/libUserAgent.so|df066846e701197d95544f2c552fd1881c469141
 vendor/lib64/libfeedbackhandler.so|82728d38aa14268617868ab0750cbb8fb244bf9a
 vendor/lib64/libllvm-qgl.so|852cd7e8d801507a6aec5b744912dbfda2ca738f
 vendor/lib64/libmm-disp-apis.so|d6f5583cb537f2faf7e0f0a7c55cefbebc0bc2ac
 vendor/lib64/libmm-qdcm.so|2f8d6e7c5f9af4428de141e4c9357c41a2283b23
-vendor/lib64/libqti-gt-prop.so|cedf65e5adde6bfbcdc1b0f982c91731f126c942
 vendor/lib64/libsi.so|6c45c0f6777b73a29cf61966d2838a6a5e26b6dc
-vendor/lib64/libsmemlog.so|6be9b6bfa31866dd3553203730f2b6af6df1a13f
-vendor/lib64/vendor.qti.hardware.limits@1.0_vendor.so|61b725140a672411b75d3e0abb193b8736a858ee
-vendor/lib64/vendor.qti.hardware.wipower@1.0_vendor.so|ee44ae260a7877e1414cffed9b57bd8b2966b80c
