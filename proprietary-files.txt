@@ -537,6 +537,11 @@ vendor/lib/libsecureui.so|1a96fc5897cf2ea7edc0d905506832f73ef6b439
 vendor/lib/libsecureui_svcsock.so|2127da6cefd630e70c9be6aafb5489a49192de2b
 vendor/lib/libssd.so|4c35bf4556ee7f14204b9d2bcf48b9b9effb8de0
 vendor/lib/libtzdrmgenprov.so|edc6b2fdf3b5795ef9226781a9fc4cbcc090a3c2
+vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so|b178178ce2a145dbb50f8b0c4b562004b4c4d2c9
+vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so|173716aed14a8693f22ffd6b59ea07ebcb043ad2
+vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so|34e1fb24b477743c8932162c0696799382747e3f
+vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so|0d961ed300a50dab315873dcbc23500fb2ae6546
+vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so|c2b3e1c2dc3de769c861d5167c7295e9844356e4
 vendor/lib64/libGPTEE_vendor.so|4380f86b6a3ead78f45480d48faabcd22b31ec97
 vendor/lib64/libGPreqcancel.so|adf4610b249b26bc56d34893ad322e89f326446e
 vendor/lib64/libGPreqcancel_svc.so|9ce6e08d027a259675f5fd63df44be69cac7f018
@@ -554,15 +559,10 @@ vendor/lib64/libsecureui_svcsock.so|9b94a5f9802104e0df2342ccee6a3be3efd1353b
 vendor/lib64/libssd.so|d4c4148ccaeb6180dfca28e4d2fa305f58d0f03b
 vendor/lib64/libtzdrmgenprov.so|d8ed72aac2acd98098c67b51219fdf7829b33790
 
-# Widevine - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-vendor/bin/hw/android.hardware.drm@1.0-service.widevine|692aff9d8c2632ddda775b2b9187ce26ed245871
-vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc|51a3168a0dbc064d78ee11ca83614c0cd2e6daa5
-vendor/lib/libwvhidl.so|edb3901339a92fb14010be1ead95caa3bec614a3
-vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so|b178178ce2a145dbb50f8b0c4b562004b4c4d2c9
-vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so|173716aed14a8693f22ffd6b59ea07ebcb043ad2
-vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so|34e1fb24b477743c8932162c0696799382747e3f
-vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so|0d961ed300a50dab315873dcbc23500fb2ae6546
-vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so|c2b3e1c2dc3de769c861d5167c7295e9844356e4
+# Widevine - from wayne - PKQ1.180904.001.V10.3.4.0.PDCCNXM
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|320749f5ce293176b9de747d13db7f026748b955
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|458dd241f5f8536eccb57f012b3eba0061736e8e
+vendor/lib64/libwvhidl.so|7c0a796c06a5ed705fab27f91db248fe385492bf
 
 # Display calibration - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/etc/qdcm_calib_data_NT51021_BOE_BOE.xml|16f45a1a2c1428333af539e12478288826bf0c00
