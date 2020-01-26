@@ -199,13 +199,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     folio_daemon
 
-# FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio \
-    qcom.fmradio.xml
-
 # fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect
