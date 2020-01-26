@@ -1072,11 +1072,11 @@ vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 vendor/lib64/libthermalfeature.so|655a4b39b45a80069d7d8706a921ee0ace3a4865
 vendor/lib64/libthermalioctl.so|3ced2da2dda9dfd4eea9a1df92465d62de669b56
 
-# Time - from wayne - PKQ1.180904.001.V10.3.4.0.PDCCNXM
--vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
-vendor/bin/time_daemon|a11fadf60ba075581676f421a77c5f1430eb95ce
-vendor/lib/libtime_genoff.so|87dfe50d46e306b73efcd859ce9c7c9fa86cd5b5
-vendor/lib64/libtime_genoff.so|e341ec29dbfb6d1fae84915a6151fd56d25f4ddc
+# Time - from LA.UM.8.2.r1-04300-sdm660.0
+-vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
+vendor/bin/time_daemon|1f0ab775a70bd863c0c59f999fcba2b6882d2a31
+vendor/lib/libtime_genoff.so|e858cc52e829af0a9e4b5a4c39bddef8cece4bd9
+vendor/lib64/libtime_genoff.so|c8e0bbc9c6b7b5beddba43bc4125a9eaeba7c79f
 
 # Voice - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/lib/vendor.qti.voiceprint@1.0.so|01ebe63f13899816e16baceaf256af49c9c01c07
