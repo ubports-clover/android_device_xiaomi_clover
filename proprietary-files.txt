@@ -845,7 +845,6 @@ vendor/lib/libqcci_legacy.so|929aa89a517e462e9e1803120db5c794fdf2c7ff
 vendor/lib/libqdi.so|5b23e6622b1d5b48c5485c437c5962a28b6a0832
 vendor/lib/libqdp.so|cfdd5ebcc9ed81e315c4b19061b8eedf29e85d67
 vendor/lib/libqmi.so|d326f9dde91c46eef9549379e39f12818f167d15
-vendor/lib/libqmi_cci.so|493916cf5e689140a825f3ec7f1b2cbb1e2c67ae
 vendor/lib/libqmi_client_helper.so|78ec457392e9469db2ebf5b36b0768305a9a2b48
 vendor/lib/libqmi_client_qmux.so|0033669b322036cd83910733538ce0972ec6573f
 vendor/lib/libqmi_common_so.so|81861195c68aa8661069fbeff15237950e3730c4
@@ -859,13 +858,16 @@ vendor/lib64/libqcci_legacy.so|19dd9805fd2e979a628e578b4f177924399192ff
 vendor/lib64/libqdi.so|aab715c530d5402eb0d15b376673b272b37aaf29
 vendor/lib64/libqdp.so|0286d02a2a6ddb7384c338aa352fa3cbd31a4f24
 vendor/lib64/libqmi.so|0a8535517d74d1496633b746efef75527e07cf68
-vendor/lib64/libqmi_cci.so|34903dd4fa5c7b7949dfb62d8c0c60b97d15ce44
 vendor/lib64/libqmi_client_helper.so|6725be3d061f8b829eeb7aa4230248247d1c89ad
 vendor/lib64/libqmi_client_qmux.so|c47732b7de69f03204e6d47a56f83ea959101ba8
 vendor/lib64/libqmi_common_so.so|e2cd492da985d44db4041797c868e431b0ff3581
 vendor/lib64/libqmi_csi.so|df3bdaf026fadcb1044747914589196a96b04832
 vendor/lib64/libqmi_encdec.so|bfcab8d3b76b009e344dd943b6596f2b4db05631
 vendor/lib64/libqmiservices.so|6d0c541214bc4f032de7f82fdbad9e87d635083a
+
+# QMI - from LA.UM.8.2.r1-04300-sdm660.0
+vendor/lib/libqmi_cci.so|4dd4404fb26716ebdc9951074efc7102453511a6
+vendor/lib64/libqmi_cci.so|e6981c6c01d377979340366ba3259133bced350b
 
 # Qteeconnector - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|67f7f4beebed7801373aacbc937fbd19f7f2b7a0
