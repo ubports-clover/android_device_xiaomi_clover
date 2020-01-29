@@ -541,7 +541,6 @@ on charger
     start vendor.qcom-post-boot
     start vendor.hvdcp_opti
     setprop sys.usb.configfs 1
-    start power_off_alarm
     # hq log
     setprop debug.charger.on 1
 

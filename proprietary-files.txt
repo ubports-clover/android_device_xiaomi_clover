@@ -45,17 +45,13 @@ vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|f715c3fd77a7bc370bbb4d62af814d5b6
 vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so|59e3b855c27efd0299113ceb4a9651c35944da17
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|dbe449443a23b3424031caf13d7064ee93e14a51
 
-# Alarm - from wayne - PKQ1.180904.001.V10.3.4.0.PDCCNXM
--vendor/app/PowerOffAlarm/PowerOffAlarm.apk|d5b3fcb75c1a27acf7f3ddbd7029d56f0b66c724
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|1300f2aacbcd159a2587abc1f38031d9c1f1beed
-vendor/bin/power_off_alarm|f973dabbdba85ece5115d4beb457cb37887e4358
+# Alarm - from LA.UM.8.2.r1-04300-sdm660.0
+product/framework/vendor.qti.hardware.alarm-V1.0-java.jar|69dedc62181ae26bb2fac4eaacb1f2c38eb21c31
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|2399da8803ff7229476611f371fc435f48138881
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|faccc2a7d94d486c2f61a5fe85f5c4598b4147a7
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
-vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so|0b6cfa8af4a0a056f9f4d57b53df07d0cdf0c982
-vendor/lib/libalarmservice_jni.so|ab7dd5cb749417832c1b43a7c633795e3f3a0b82
-vendor/lib/vendor.qti.hardware.alarm@1.0.so|02b00f3bbc5d975c64be191ac1dd8765a564f6df
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|7d163c35a9deee2801070ed50c6625709c3e0b65
-vendor/lib64/libalarmservice_jni.so|b741c55e734b8583599e6cd5866e4b541ea13f32
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|8c978663c6d9dc4b96a11abc57f3ad1c5ee4d3b8
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|1e2631850cc97dfedbde50a9d0d55c8d14881b44
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|e86242990b1e00c6d231f912f218e7ae137394b9
 
 # Audio - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/lib/libacdb-fts.so|12afac5e9008e64736d82fa77fb1d0a6e9be16e6
@@ -617,9 +613,11 @@ vendor/bin/xtra-daemon|50679ad3880a6ddc4bd0eca92a0aebdc04e0240c
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/init/vendor.qti.gnss@2.0-service.rc|5fef1b6f19950a06dc1ffd11f161f9587bb84054
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
+vendor/lib/libalarmservice_jni.so|ab7dd5cb749417832c1b43a7c633795e3f3a0b82
 vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so|383515b247787b946982a5e7124813e0bc8e096a
 vendor/lib64/libDRPlugin.so|792f322df1627627830e9bc520a9d4d8a0f2c2e8
 vendor/lib64/lib_drplugin_server.so|350609a1c6e82f222bbaf1358b85f73c36e4e90e
+vendor/lib64/libalarmservice_jni.so|b741c55e734b8583599e6cd5866e4b541ea13f32
 vendor/lib64/libdataitems.so|638896d170f11bb770892ddaf40903414016cdac
 vendor/lib64/libdrplugin_client.so|fb1ef09dd35cb8af0b70def74db0f1f9fb6052fe
 vendor/lib64/libevent_observer.so|19951e3a0c43656dce41bf56e4fea8a11d91054f
