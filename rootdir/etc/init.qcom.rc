@@ -1131,7 +1131,7 @@ on property:init.svc.surfaceflinger=restarting
 #on property:ro.logdumpd.enabled=1
 #    start logdumpd
 
-service vendor.time_daemon /system/vendor/bin/time_daemon
+service time_daemon /system/vendor/bin/time_daemon
     class main
     user root
     group root
