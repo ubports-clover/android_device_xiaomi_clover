@@ -58,7 +58,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.vbat.enabl=true \
     vendor.audio.feature.fm.enable=true \
     vendor.voice.path.for.pcm.voip=true \
-    persist.vendor.bt.a2dp_offload_cap=sbc-aac \
     vendor.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee \
     camera.aux.packagelist=org.codeaurora.snapcam \
